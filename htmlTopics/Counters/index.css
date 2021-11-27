@@ -1,7 +1,0 @@
-body {
-  counter-reset: myCounter;
-}
-h1::before {
-  counter-increment: myCounter;
-  content: counter(myCounter) ". ";
-}
